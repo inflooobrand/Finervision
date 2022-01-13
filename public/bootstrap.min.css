@@ -1,0 +1,82 @@
+.section{
+	width: 100%;
+	text-align: left;
+	padding: 15px;
+	font-size: 20px;
+	font-family: Georgia,'Times New Roman', Times, serif;
+	background: #fee60b;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+}
+
+.active:hover{
+	background: #b2bdb5;
+}
+
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+.form-mg{
+	padding: 0 20px;
+/*	display: none;
+*/
+}
+#mg-tp-dt{
+	float: right;
+	background-color: #3F44BA;
+  border: none;
+  color: white;
+  padding: 4px 23px;
+  font-size: 16px;
+  margin: 4px 50px;
+  outline: none !important;
+}
+
+
+
+
+
+.accordion {
+  background-color: #FFC300;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none !important;
+  font-size: 15px;
+  transition: 0.4s;
+  margin: 5px;
+  color: white;
+}
+
+.active, .accordion:hover {
+  background-color: #FFC300; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+#date_span {
+    display: block;
+/*    margin: 20px 0;
+*/}
+
+.mg-lt{
+  margin-left: 13px;
+}
